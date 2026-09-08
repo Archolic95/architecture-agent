@@ -1,0 +1,147 @@
+{
+  "kind": "independent_native_section_controls",
+  "author": "Architecture Agent contributors",
+  "rhino3dm_version": "8.32.2",
+  "geometry_source": "original synthetic polygons and explicit rigid transformations in this source",
+  "native_rhino_execution": false,
+  "architectural_acceptance": false,
+  "source_sha256": "94e32b04a33cab17645ee475358aaabcb7e9948be7876feaa259559ef4642519",
+  "files": [
+    {
+      "name": "quarter_turn_prism",
+      "path": "quarter_turn_prism.3dm",
+      "sha256": "dae1d9488535120d73db14e115abcb956a685d10468a3b2d790cc7638942ca23",
+      "units": "Millimeters",
+      "object_ids": [
+        "9a0b053f-dad5-514d-84f5-d5a48fb3a038"
+      ],
+      "geometry_types": [
+        "Extrusion"
+      ],
+      "valid": [
+        true
+      ],
+      "solid": [
+        true
+      ]
+    },
+    {
+      "name": "tilted_prism",
+      "path": "tilted_prism.3dm",
+      "sha256": "092b1cb4bad44481121cd88dbddf88848ca6c3f10fdbb3f5cd2878e546502fd4",
+      "units": "Centimeters",
+      "object_ids": [
+        "b03bba23-34fb-554c-bc26-04c25c23d128"
+      ],
+      "geometry_types": [
+        "Extrusion"
+      ],
+      "valid": [
+        true
+      ],
+      "solid": [
+        true
+      ]
+    },
+    {
+      "name": "curved_outer",
+      "path": "curved_outer.3dm",
+      "sha256": "4d92ff7803458e3cfa4444d3879f56da9592e1a3ee490d16d8e15177b0630073",
+      "units": "Millimeters",
+      "object_ids": [
+        "2bbeb95e-555f-5cd8-a214-204dce0b028c"
+      ],
+      "geometry_types": [
+        "Extrusion"
+      ],
+      "valid": [
+        true
+      ],
+      "solid": [
+        true
+      ]
+    },
+    {
+      "name": "curved_inner",
+      "path": "curved_inner.3dm",
+      "sha256": "7dfd2f67f88ac3140c350fedba517301b278e4210f2687ecc952dbd8884e0d6c",
+      "units": "Millimeters",
+      "object_ids": [
+        "4cdedda7-a14c-528e-ae51-b4e94f807732"
+      ],
+      "geometry_types": [
+        "Extrusion"
+      ],
+      "valid": [
+        true
+      ],
+      "solid": [
+        true
+      ]
+    },
+    {
+      "name": "uncapped_prism",
+      "path": "uncapped_prism.3dm",
+      "sha256": "168682bada142499ad64968483d1f5e04ac87c352c545867d0c54b2500181ce3",
+      "units": "Millimeters",
+      "object_ids": [
+        "825f0b23-0bf4-5952-b9ca-c98f24847fa6"
+      ],
+      "geometry_types": [
+        "Extrusion"
+      ],
+      "valid": [
+        true
+      ],
+      "solid": [
+        false
+      ]
+    },
+    {
+      "name": "brep_only",
+      "path": "brep_only.3dm",
+      "sha256": "3747dca84224cb79bb476801e120d2a95a8eec62051f03ca56ea5d47d6f9f6b2",
+      "units": "Millimeters",
+      "object_ids": [
+        "d4f7cdd2-95ee-5892-b62a-cd830fb63291"
+      ],
+      "geometry_types": [
+        "Brep"
+      ],
+      "valid": [
+        true
+      ],
+      "solid": [
+        true
+      ]
+    },
+    {
+      "name": "mixed_geometry",
+      "path": "mixed_geometry.3dm",
+      "sha256": "f3ba0f89fa0cf25d8654981b9426746f48fea8a065332481b19a108a6d9073f3",
+      "units": "Millimeters",
+      "object_ids": [
+        "9c175b89-1f5c-5324-a94c-c6054986ac1c",
+        "f3c9db27-b540-528d-a51f-e794e5977940"
+      ],
+      "geometry_types": [
+        "Extrusion",
+        "Brep"
+      ],
+      "valid": [
+        true,
+        true
+      ],
+      "solid": [
+        true,
+        true
+      ]
+    }
+  ],
+  "primary_api_references": [
+    "https://mcneel.github.io/rhino3dm/python/api/Extrusion.html",
+    "https://mcneel.github.io/rhino3dm/python/api/Transform.html"
+  ],
+  "original_source_sha256": "e1732a6139e063260c5375467609013051ed632879810f3b4eded37c9705a6c1",
+  "container_metadata_policy": "Public native files re-encoded in memory to remove internal save-path metadata; complete native geometry, object attributes and IDs unchanged."
+}

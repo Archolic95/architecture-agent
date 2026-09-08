@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0-beta.1",
+  "version": "0.3.0-beta.2",
   "files": [
     {
       "path": ".agents/plugins/marketplace.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4298,
-      "sha256": "3666396445ed5e47df34312b8246bc5a065d7c24623dd89beb2ffec9abbd2be2"
+      "bytes": 4689,
+      "sha256": "a70aada1875a52b2443efc5c59476da6a7d95eba8b9ca40631dbe342c26af232"
     },
     {
       "path": "TERMS.md",
@@ -43,13 +43,13 @@
     },
     {
       "path": "docs/capabilities.md",
-      "bytes": 1923,
-      "sha256": "3a0b49606fcb2e7469d3e6f9530d21424ea38e8cc1aada17c317413f39b54a76"
+      "bytes": 2567,
+      "sha256": "4b780239284b9ac55e6ebd2a79d51f70e492dd225f48f988bfff8ffaca4903c7"
     },
     {
       "path": "docs/development.md",
-      "bytes": 2479,
-      "sha256": "c0b66d1aa0298b5f47de6c7ba3339ced1cd25af6cfeed4e5106884bb28a9bab2"
+      "bytes": 3752,
+      "sha256": "c7c65f5c57c2681e4a33bad116044692673054d1a75fbfa0f29a58e91c1c0cd7"
     },
     {
       "path": "docs/distribution.md",
@@ -64,7 +64,7 @@
     {
       "path": "plugins/architecture-agent/.codex-plugin/plugin.json",
       "bytes": 1231,
-      "sha256": "425b6180c29adcd1d7f658b0f292c6cf0447412d734791aac1c08f4821fc118f"
+      "sha256": "e96c248f76f40c799ac7dec9865f75a7b6a5b576d4e46499f04b7074ff43e820"
     },
     {
       "path": "plugins/architecture-agent/LICENSE",
@@ -88,8 +88,8 @@
     },
     {
       "path": "plugins/architecture-agent/skills/architecture-modeling/SKILL.md",
-      "bytes": 4571,
-      "sha256": "1278ac2abda1431381e1e91bd86972f096b6e20bffe8656e1511161580554ebd"
+      "bytes": 5276,
+      "sha256": "eb151ee1bfd7369b0ba0d7351bed91ca66fde53b720d041b0f178a7f89bc9257"
     },
     {
       "path": "plugins/architecture-agent/skills/architecture-modeling/references/geometry.md",
@@ -97,9 +97,19 @@
       "sha256": "53faeb6159938d67b153eb80a214e39c82aa374d74e3238c5cd814ac644eed48"
     },
     {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/references/native-sections.md",
+      "bytes": 3843,
+      "sha256": "5d07bad761a427c7bbd81c0d488af626b69e88aa077c151cf3d9f213145b4a72"
+    },
+    {
       "path": "plugins/architecture-agent/skills/architecture-modeling/references/standalone-kit.md",
-      "bytes": 3989,
-      "sha256": "4d913eb827ea18615c4b51dd4faa8ddb2e94c2aa5bdf1cf46b4fc8652192884d"
+      "bytes": 4454,
+      "sha256": "b6aa3ef53a1ea5a4e2182b0919f4dcb4d7b676e63d9d390f69570b451ad0eb0c"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/README.md",
+      "bytes": 694,
+      "sha256": "decb9dc57e3899cf0dcfbc3c4aa60b53164b2580365795bc0426ddc022811e3f"
     },
     {
       "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/build_demo.py",
@@ -117,9 +127,114 @@
       "sha256": "3d49e7cc1c93485c8e5a89517fe2183c7ca2bc6d0ba1643e12a8ff7697ec6381"
     },
     {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/native_sections.py",
+      "bytes": 22907,
+      "sha256": "b825dc944b2ba6a3ea0d0a691ff67f97c73250c21444c8a0a2a5e639f9c4c5f7"
+    },
+    {
       "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/requirements.txt",
       "bytes": 96,
       "sha256": "e0def326ab7ce2eeffde08cdcc1eba78f9941c4274ecfb901247d7ecee302e0a"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/README.md",
+      "bytes": 5845,
+      "sha256": "e36180b2a17712df86ce41a3917fc6c820912b61b83f735dd16323bcf2ac9e94"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/build_controls.py",
+      "bytes": 5341,
+      "sha256": "94e32b04a33cab17645ee475358aaabcb7e9948be7876feaa259559ef4642519"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/build_negative_controls.py",
+      "bytes": 3732,
+      "sha256": "6983b27ccb257c2a68dd35169ec228b6ba2ad4d44487b7251f4140872429091a"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/native/brep_only.3dm",
+      "bytes": 21544,
+      "sha256": "3747dca84224cb79bb476801e120d2a95a8eec62051f03ca56ea5d47d6f9f6b2"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/native/curved_inner.3dm",
+      "bytes": 10507,
+      "sha256": "7dfd2f67f88ac3140c350fedba517301b278e4210f2687ecc952dbd8884e0d6c"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/native/curved_outer.3dm",
+      "bytes": 10037,
+      "sha256": "4d92ff7803458e3cfa4444d3879f56da9592e1a3ee490d16d8e15177b0630073"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/native/manifest.json",
+      "bytes": 3759,
+      "sha256": "9ff8a3d34bb02dd9a041f4bf552d4db37b6caaf7544de28ea39da093ba48233f"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/native/mixed_geometry.3dm",
+      "bytes": 23058,
+      "sha256": "f3ba0f89fa0cf25d8654981b9426746f48fea8a065332481b19a108a6d9073f3"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/native/quarter_turn_prism.3dm",
+      "bytes": 10314,
+      "sha256": "dae1d9488535120d73db14e115abcb956a685d10468a3b2d790cc7638942ca23"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/native/tilted_prism.3dm",
+      "bytes": 10302,
+      "sha256": "092b1cb4bad44481121cd88dbddf88848ca6c3f10fdbb3f5cd2878e546502fd4"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/native/uncapped_prism.3dm",
+      "bytes": 10306,
+      "sha256": "168682bada142499ad64968483d1f5e04ac87c352c545867d0c54b2500181ce3"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/native-negatives/manifest.json",
+      "bytes": 2813,
+      "sha256": "804a36ef868d04e69c3944fbece7f1092fa23e502c7385727dfe0afbad34d2c6"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/native-negatives/mitered_prism.3dm",
+      "bytes": 9910,
+      "sha256": "409df3e4a27bf9c0aea8dd2bd9bae559cddbd98c9d31d12659069f9169f3f32b"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/native-negatives/outside_hole.3dm",
+      "bytes": 9908,
+      "sha256": "6319e0d1f6a08cc3825d953e09320d009d73df1122f81a57fde40cc7fe74341b"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/native-negatives/overlapping_holes.3dm",
+      "bytes": 10171,
+      "sha256": "496e43c365cf47390d21b6a30eb94ec85bbf418a3cf576dc97ad2f70f14242f8"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/controls/native-negatives/touching_hole.3dm",
+      "bytes": 9910,
+      "sha256": "e877e760f8c46dd47ed50181b8e24da7161538cef85fdb75fdf170e4f380b49b"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/review/README.md",
+      "bytes": 2783,
+      "sha256": "ba9c308fe5510a490d18802c00ef9b8479b5321cfc2442d080a11f139624d392"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/review/conditioning-original-0.3dm",
+      "bytes": 9407,
+      "sha256": "9dd217e82499d7b45eb3b75341fd8e622a6350ec600553e9a78b4c63056e54e6"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/review/tangent-triangle-original.3dm",
+      "bytes": 9375,
+      "sha256": "fd849883a69e5841cdf135819287408d5de1469c82fbe91490485a427c20d0f1"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/section_controls/tests/test_native_sections_controls.py",
+      "bytes": 14267,
+      "sha256": "5636af36ec9f60348b37d5145ab852113142c71fd8b60f407ede41d08bbe0435"
     },
     {
       "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/setup.py",
@@ -328,8 +443,8 @@
     },
     {
       "path": "tools/build_release.py",
-      "bytes": 5278,
-      "sha256": "cda45494bb99388debc3b6bedf657b262fb8fb1b65c0cf11f49897362d2b6510"
+      "bytes": 6807,
+      "sha256": "39725b2122737e9578ddf803dfdca9c7a2b4898cccb61e1986ece3c93e4414a9"
     }
   ]
 }

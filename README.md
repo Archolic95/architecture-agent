@@ -17,7 +17,7 @@ Requires a host with local file execution (such as Codex), Python 3.12–3.13, a
 Install the tagged beta directly from GitHub:
 
 ```sh
-codex plugin marketplace add Archolic95/architecture-agent@v0.3.0-beta.1
+codex plugin marketplace add Archolic95/architecture-agent@v0.3.0-beta.2
 codex plugin add architecture-agent@architecture-community
 ```
 
@@ -42,6 +42,8 @@ python3 plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/v
 On Windows use `py -3.13` in place of `python3` and `.architecture-venv\Scripts\python.exe` for the environment's interpreter. The viewer command prints a local URL; keep it running while viewing. It does not start or control Rhino unless you add `--allow-open` and click an Open button. Opening a file in Rhino requires Rhino to be installed.
 
 The browser includes perspective/axonometric projection, sections, layer controls, object selection and downloads. Section cuts are uncapped display cuts. Advanced curves, surfaces and geometry without supported display data can require another backend. [Capabilities](docs/capabilities.md) records the exact boundaries.
+
+Beta.2 adds a separate optional command for [filled 2D solid sections](plugins/architecture-agent/skills/architecture-modeling/references/native-sections.md) from capped, unmitered polygonal Extrusions. It preserves source units and reports unsupported or unresolved cuts explicitly. The fill represents combined solid occupancy; CPU and browser cuts keep their existing uncapped behavior.
 
 ## Contribute architecture skills
 

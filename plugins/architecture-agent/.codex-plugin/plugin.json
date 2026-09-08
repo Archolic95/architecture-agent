@@ -1,6 +1,6 @@
 {
   "name": "architecture-agent",
-  "version": "0.3.0-beta.1",
+  "version": "0.3.0-beta.2",
   "description": "Generate and revise editable architectural Rhino models using retained Python and a local browser preview.",
   "author": {
     "name": "Architecture Agent contributors"

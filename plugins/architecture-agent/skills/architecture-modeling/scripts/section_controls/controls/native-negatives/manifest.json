@@ -1,0 +1,98 @@
+{
+  "kind": "independent_native_section_negative_controls",
+  "author": "Architecture Agent contributors",
+  "rhino3dm_version": "8.32.2",
+  "native_rhino_execution": false,
+  "architectural_acceptance": false,
+  "source_sha256": "6983b27ccb257c2a68dd35169ec228b6ba2ad4d44487b7251f4140872429091a",
+  "helper_source_sha256": "94e32b04a33cab17645ee475358aaabcb7e9948be7876feaa259559ef4642519",
+  "files": [
+    {
+      "name": "outside_hole",
+      "path": "outside_hole.3dm",
+      "sha256": "6319e0d1f6a08cc3825d953e09320d009d73df1122f81a57fde40cc7fe74341b",
+      "units": "Millimeters",
+      "object_ids": [
+        "e38cbefa-e6c3-55cf-837f-9d83ae489a34"
+      ],
+      "geometry_types": [
+        "Extrusion"
+      ],
+      "valid": [
+        true
+      ],
+      "solid": [
+        true
+      ],
+      "profile_count": 2,
+      "mitered_start": false,
+      "expected_error": "unsupported_profile"
+    },
+    {
+      "name": "touching_hole",
+      "path": "touching_hole.3dm",
+      "sha256": "e877e760f8c46dd47ed50181b8e24da7161538cef85fdb75fdf170e4f380b49b",
+      "units": "Millimeters",
+      "object_ids": [
+        "1b504e42-52e1-5da5-a436-0bc546c2484c"
+      ],
+      "geometry_types": [
+        "Extrusion"
+      ],
+      "valid": [
+        true
+      ],
+      "solid": [
+        true
+      ],
+      "profile_count": 2,
+      "mitered_start": false,
+      "expected_error": "unsupported_profile"
+    },
+    {
+      "name": "overlapping_holes",
+      "path": "overlapping_holes.3dm",
+      "sha256": "496e43c365cf47390d21b6a30eb94ec85bbf418a3cf576dc97ad2f70f14242f8",
+      "units": "Millimeters",
+      "object_ids": [
+        "1207c6aa-9584-5ac4-9ff9-93825f0596f9"
+      ],
+      "geometry_types": [
+        "Extrusion"
+      ],
+      "valid": [
+        true
+      ],
+      "solid": [
+        true
+      ],
+      "profile_count": 3,
+      "mitered_start": false,
+      "expected_error": "unsupported_profile"
+    },
+    {
+      "name": "mitered_prism",
+      "path": "mitered_prism.3dm",
+      "sha256": "409df3e4a27bf9c0aea8dd2bd9bae559cddbd98c9d31d12659069f9169f3f32b",
+      "units": "Millimeters",
+      "object_ids": [
+        "6a0a22ae-0f8a-5893-af5e-28ab152af97b"
+      ],
+      "geometry_types": [
+        "Extrusion"
+      ],
+      "valid": [
+        true
+      ],
+      "solid": [
+        true
+      ],
+      "profile_count": 2,
+      "mitered_start": true,
+      "expected_error": "mitered_extrusion"
+    }
+  ],
+  "original_source_sha256": "534dc7428ed77b856f55a4984c4602367657c5050accdf5121d1d2c291648de3",
+  "original_helper_source_sha256": "e1732a6139e063260c5375467609013051ed632879810f3b4eded37c9705a6c1",
+  "container_metadata_policy": "Public native files re-encoded in memory to remove internal save-path metadata; complete native geometry, object attributes and IDs unchanged."
+}

@@ -14,6 +14,16 @@ ROOT_FILES = {'README.md', 'LICENSE', 'THIRD-PARTY-NOTICES.md', 'CONTRIBUTING.md
 EXTENSIONS = {'.md', '.py', '.json', '.mjs', '.js', '.css', '.html', '.txt', '.wasm', '.3dm', '.png'}
 
 
+def native_has_private_path(data):
+    pattern = (r'/(?:Users|home|root)/|[A-Za-z]:[\\/]Users[\\/]|'
+               r'jobs[\\/][^\\/\x00\r\n]+[\\/]codex-[^\\/\x00\r\n]+[\\/]')
+    for encoding in ('utf-8', 'utf-16-le', 'utf-16-be'):
+        for offset in ((0,) if encoding == 'utf-8' else (0, 1)):
+            if re.search(pattern, data[offset:].decode(encoding, errors='ignore'), re.IGNORECASE):
+                return True
+    return False
+
+
 def sources():
     for path in sorted(ROOT.rglob('*')):
         rel = path.relative_to(ROOT)
@@ -30,6 +40,8 @@ def sources():
         data = path.read_bytes()
         if len(data) > 8 * 1024 * 1024:
             raise ValueError('Unexpectedly large source asset: ' + str(rel))
+        if path.suffix == '.3dm' and native_has_private_path(data):
+            raise ValueError('Private path in native source asset: ' + str(rel))
         # The pinned upstream Emscripten JS creates its virtual /home/web_user.
         # Exempt only these exact public npm bytes; local source still gets scanned.
         public_npm = (rel.as_posix().endswith('/dist/vendor/rhino3dm.js') and
@@ -62,6 +74,15 @@ def main():
     plugin = 'plugins/architecture-agent/'
     required = [plugin + '.codex-plugin/plugin.json', plugin + 'skills/architecture-modeling/SKILL.md',
                 plugin + 'skills/architecture-modeling/scripts/geometry_kit.py',
+                plugin + 'skills/architecture-modeling/scripts/native_sections.py',
+                plugin + 'skills/architecture-modeling/scripts/README.md',
+                plugin + 'skills/architecture-modeling/references/native-sections.md',
+                plugin + 'skills/architecture-modeling/scripts/section_controls/tests/test_native_sections_controls.py',
+                plugin + 'skills/architecture-modeling/scripts/section_controls/controls/native/manifest.json',
+                plugin + 'skills/architecture-modeling/scripts/section_controls/controls/native-negatives/manifest.json',
+                plugin + 'skills/architecture-modeling/scripts/section_controls/review/conditioning-original-0.3dm',
+                plugin + 'skills/architecture-modeling/scripts/section_controls/review/tangent-triangle-original.3dm',
+                plugin + 'skills/architecture-modeling/scripts/section_controls/review/README.md',
                 plugin + 'skills/architecture-modeling/scripts/requirements.txt',
                 plugin + 'skills/architecture-modeling/scripts/viewer/dist/index.html',
                 plugin + 'skills/architecture-modeling/scripts/viewer/dist/preview.mjs',
