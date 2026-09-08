@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0-beta.2",
+  "version": "0.3.0-beta.3",
   "files": [
     {
       "path": ".agents/plugins/marketplace.json",
@@ -28,8 +28,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4689,
-      "sha256": "a70aada1875a52b2443efc5c59476da6a7d95eba8b9ca40631dbe342c26af232"
+      "bytes": 5926,
+      "sha256": "ab998f202764f6ecff68e6af62e886ef0f5a7216d3f7826a6d05c53c834bd5f0"
     },
     {
       "path": "TERMS.md",
@@ -43,8 +43,8 @@
     },
     {
       "path": "docs/capabilities.md",
-      "bytes": 2567,
-      "sha256": "4b780239284b9ac55e6ebd2a79d51f70e492dd225f48f988bfff8ffaca4903c7"
+      "bytes": 3226,
+      "sha256": "a38216c226601ef56aec4866d95048ce05e9ec963d09cf45f3b841054ff7a3c1"
     },
     {
       "path": "docs/development.md",
@@ -53,8 +53,8 @@
     },
     {
       "path": "docs/distribution.md",
-      "bytes": 1373,
-      "sha256": "16d24271861f0c177ef0b8fbd0d1ada06f98f62749d5c152676b87b3f252b3a1"
+      "bytes": 1689,
+      "sha256": "e6d78a3f2fb0cd07a79a8d733222187c7e5aa24b78f9074daa85751aaddc2263"
     },
     {
       "path": "docs/reviewer-cases.json",
@@ -63,8 +63,8 @@
     },
     {
       "path": "plugins/architecture-agent/.codex-plugin/plugin.json",
-      "bytes": 1231,
-      "sha256": "e96c248f76f40c799ac7dec9865f75a7b6a5b576d4e46499f04b7074ff43e820"
+      "bytes": 1331,
+      "sha256": "1c296623312b12696522ed7b2c62989eccbc8e671c5549ad81eb9de9c628c9df"
     },
     {
       "path": "plugins/architecture-agent/LICENSE",
@@ -88,8 +88,8 @@
     },
     {
       "path": "plugins/architecture-agent/skills/architecture-modeling/SKILL.md",
-      "bytes": 5276,
-      "sha256": "eb151ee1bfd7369b0ba0d7351bed91ca66fde53b720d041b0f178a7f89bc9257"
+      "bytes": 5950,
+      "sha256": "c30135d7b3f90c5cece82972cc227873157308dfa35368f4bd3a724203446e18"
     },
     {
       "path": "plugins/architecture-agent/skills/architecture-modeling/references/geometry.md",
@@ -102,14 +102,19 @@
       "sha256": "5d07bad761a427c7bbd81c0d488af626b69e88aa077c151cf3d9f213145b4a72"
     },
     {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/references/portable-viewer.md",
+      "bytes": 2845,
+      "sha256": "3f2fdc2937894d93de2b1f3a05652ef1625278947dcb4a7a0851de61c13457b5"
+    },
+    {
       "path": "plugins/architecture-agent/skills/architecture-modeling/references/standalone-kit.md",
       "bytes": 4454,
       "sha256": "b6aa3ef53a1ea5a4e2182b0919f4dcb4d7b676e63d9d390f69570b451ad0eb0c"
     },
     {
       "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/README.md",
-      "bytes": 694,
-      "sha256": "decb9dc57e3899cf0dcfbc3c4aa60b53164b2580365795bc0426ddc022811e3f"
+      "bytes": 990,
+      "sha256": "67a84a93e7ab891a721471f338fcc539d02c78f5607e729de7f1ae2e4db0fed9"
     },
     {
       "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/build_demo.py",
@@ -130,6 +135,26 @@
       "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/native_sections.py",
       "bytes": 22907,
       "sha256": "b825dc944b2ba6a3ea0d0a691ff67f97c73250c21444c8a0a2a5e639f9c4c5f7"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/portable/bootstrap.mjs",
+      "bytes": 2101,
+      "sha256": "9032b5ea6f1dd337bcc13b894c00dfff68af7ac5c8117bfff535fc0bf40b8130"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/portable/build_portable.py",
+      "bytes": 11948,
+      "sha256": "f1899f97e1efce58c1844fc97608b7a90a9423c488540715aa1cde10700a794b"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/portable/module-loader.mjs",
+      "bytes": 1274,
+      "sha256": "c370402e65f1bb6aa52bdd9b4e145fe0ae6197697b47b8dc0769075bea1c84ab"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/portable/portable-api.mjs",
+      "bytes": 4785,
+      "sha256": "42947b3c4041b0d372809e544602f8c8bdba3cde69676247dae1d43171ef8c69"
     },
     {
       "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/requirements.txt",
@@ -443,8 +468,8 @@
     },
     {
       "path": "tools/build_release.py",
-      "bytes": 6807,
-      "sha256": "39725b2122737e9578ddf803dfdca9c7a2b4898cccb61e1986ece3c93e4414a9"
+      "bytes": 9216,
+      "sha256": "46681ab097a7431556eb93e61bb11f1adfa46101e222f31e5462ed75467a5411"
     }
   ]
 }

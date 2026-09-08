@@ -17,7 +17,7 @@ Requires a host with local file execution (such as Codex), Python 3.12–3.13, a
 Install the tagged beta directly from GitHub:
 
 ```sh
-codex plugin marketplace add Archolic95/architecture-agent@v0.3.0-beta.2
+codex plugin marketplace add Archolic95/architecture-agent@v0.3.0-beta.3
 codex plugin add architecture-agent@architecture-community
 ```
 
@@ -43,7 +43,19 @@ On Windows use `py -3.13` in place of `python3` and `.architecture-venv\Scripts\
 
 The browser includes perspective/axonometric projection, sections, layer controls, object selection and downloads. Section cuts are uncapped display cuts. Advanced curves, surfaces and geometry without supported display data can require another backend. [Capabilities](docs/capabilities.md) records the exact boundaries.
 
-Beta.2 adds a separate optional command for [filled 2D solid sections](plugins/architecture-agent/skills/architecture-modeling/references/native-sections.md) from capped, unmitered polygonal Extrusions. It preserves source units and reports unsupported or unresolved cuts explicitly. The fill represents combined solid occupancy; CPU and browser cuts keep their existing uncapped behavior.
+## Share a portable viewer
+
+Beta.3 can package a validated model and its paired preview into one HTML file:
+
+```sh
+python3 plugins/architecture-agent/skills/architecture-modeling/scripts/portable/build_portable.py --model output/courtyard/model.3dm --preview output/courtyard/model.preview.json --validation output/courtyard/validation.json --output output/courtyard-viewer --title 'Courtyard house'
+```
+
+Send `output/courtyard-viewer/model-portable.html` with the original model and retained source. The recipient downloads the HTML and opens it in a desktop browser, without Python, Rhino, a local server or external assets. The file embeds one model, its display triangles and file-verification data. It supports the existing cameras, layers, selection and uncapped cuts; arbitrary model import and native-app dispatch are unavailable in this portable file. [Portable viewer guide](plugins/architecture-agent/skills/architecture-modeling/references/portable-viewer.md)
+
+The core controls were checked in Chrome on a bounded fixture. This does not establish inline ChatGPT/Claude rendering or attachment support on every host. The host still needs compatible Python execution to generate models and package the HTML.
+
+The separate optional command for [filled 2D solid sections](plugins/architecture-agent/skills/architecture-modeling/references/native-sections.md), introduced in beta.2, supports capped, unmitered polygonal Extrusions. It preserves source units and reports unsupported or unresolved cuts explicitly. The fill represents combined solid occupancy; CPU and browser cuts keep their existing uncapped behavior.
 
 ## Contribute architecture skills
 

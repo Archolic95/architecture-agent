@@ -75,6 +75,11 @@ def main():
     required = [plugin + '.codex-plugin/plugin.json', plugin + 'skills/architecture-modeling/SKILL.md',
                 plugin + 'skills/architecture-modeling/scripts/geometry_kit.py',
                 plugin + 'skills/architecture-modeling/scripts/native_sections.py',
+                plugin + 'skills/architecture-modeling/scripts/portable/build_portable.py',
+                plugin + 'skills/architecture-modeling/scripts/portable/bootstrap.mjs',
+                plugin + 'skills/architecture-modeling/scripts/portable/module-loader.mjs',
+                plugin + 'skills/architecture-modeling/scripts/portable/portable-api.mjs',
+                plugin + 'skills/architecture-modeling/references/portable-viewer.md',
                 plugin + 'skills/architecture-modeling/scripts/README.md',
                 plugin + 'skills/architecture-modeling/references/native-sections.md',
                 plugin + 'skills/architecture-modeling/scripts/section_controls/tests/test_native_sections_controls.py',
@@ -103,6 +108,31 @@ def main():
     skill_files += [('architecture-modeling/LICENSE', (ROOT / 'LICENSE').read_bytes()),
                     ('architecture-modeling/THIRD-PARTY-NOTICES.md', (ROOT / 'THIRD-PARTY-NOTICES.md').read_bytes())]
     releases.append(archive(args.output / f'architecture-agent-{version}-skill.zip', skill_files))
+    # Claude's consumer upload has a shorter description limit. Keep the skill
+    # body and every runtime file identical; only shorten that frontmatter field.
+    claude_files = []
+    description = ('Create or revise editable architectural Rhino models from briefs, drawings and photos '
+                   'using Python, with retained source and previews. Use for architectural modeling and model inspection.')
+    for name, data in skill_files:
+        if name == 'architecture-modeling/SKILL.md':
+            value, count = re.subn(r'^description: [^\n]*$', 'description: ' + description,
+                                   data.decode('utf-8'), count=1, flags=re.MULTILINE)
+            if count != 1 or len(description) > 200:
+                raise ValueError('Invalid Claude skill description')
+            data = value.encode('utf-8')
+        claude_files.append((name, data))
+    releases.append(archive(args.output / f'architecture-agent-{version}-claude-skill.zip', claude_files))
+    # The directory upload is a plugin ZIP, distinct from a marketplace checkout.
+    # Skills-only uploads omit the marketplace's illustrative screenshots.
+    upload_manifest = json.loads((ROOT / plugin / '.codex-plugin/plugin.json').read_text(encoding='utf-8'))
+    upload_manifest['interface'].pop('screenshots', None)
+    if len(upload_manifest['interface']['shortDescription']) > 30:
+        raise ValueError('Directory short description exceeds 30 characters')
+    upload_files = [('.codex-plugin/plugin.json', (json.dumps(upload_manifest, indent=2) + '\n').encode('utf-8')),
+                    ('LICENSE', (ROOT / 'LICENSE').read_bytes()),
+                    ('THIRD-PARTY-NOTICES.md', (ROOT / 'THIRD-PARTY-NOTICES.md').read_bytes())]
+    upload_files += [(name.removeprefix(plugin), data) for name, data in files if name.startswith(skill_prefix)]
+    releases.append(archive(args.output / f'architecture-agent-{version}-openai-upload.zip', upload_files))
     (args.output / 'release.json').write_text(json.dumps({'version': version, 'source_files': len(files), 'archives': releases}, indent=2) + '\n')
     print(json.dumps({'source_files': len(files), 'archives': releases}))
 

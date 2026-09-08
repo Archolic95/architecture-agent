@@ -1,15 +1,15 @@
 {
   "name": "architecture-agent",
-  "version": "0.3.0-beta.2",
-  "description": "Generate and revise editable architectural Rhino models using retained Python and a local browser preview.",
+  "version": "0.3.0-beta.3",
+  "description": "Generate and revise editable architectural Rhino models using retained Python and portable or local browser previews.",
   "author": {
     "name": "Architecture Agent contributors"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "Architecture Agent",
-    "shortDescription": "Create editable architectural models.",
-    "longDescription": "A source beta for multimodal architectural modeling with retained Python, native Rhino files and a local browser viewer. Uses rhino3dm and Shapely without a Rhino application or hosted geometry service. Requires a host with Python execution; advanced RhinoCommon and GH generation are outside this initial backend.",
+    "shortDescription": "Editable architecture models",
+    "longDescription": "A source beta for multimodal architectural modeling with retained Python, native Rhino files and portable or local browser previews. Uses rhino3dm and Shapely without a Rhino application or hosted geometry service. A compatible Python execution host builds models; recipients can open a downloaded self-contained HTML preview in a desktop browser. Advanced RhinoCommon and GH generation are outside this backend.",
     "developerName": "Architecture Agent contributors",
     "category": "Productivity",
     "capabilities": [

@@ -4,6 +4,11 @@
 `cpu_preview.py` creates the existing uncapped display clips, and `viewer/`
 provides the browser preview.
 
+`portable/build_portable.py` packages a validated model and paired preview as
+`model-portable.html`, using the bundled viewer automatically. Recipients open
+the downloaded HTML without a server or Python. See the
+[portable viewer guide](../references/portable-viewer.md) for commands and scope.
+
 `native_sections.py` is an optional, separate filled 2D solid-section command.
 Read [its scope, units and numerical policy](../references/native-sections.md)
 before use. Its “material” regions mean combined solid occupancy, not
