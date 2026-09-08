@@ -1,0 +1,9 @@
+{
+  "name": "architecture-agent-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=20"},
+  "scripts": {"build": "node build.mjs", "fixture": "node tests/make_fixture.mjs", "test": "node --test tests/*.test.mjs"},
+  "dependencies": {"rhino3dm": "8.32.2", "three": "0.128.0"}
+}

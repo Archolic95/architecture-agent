@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "status": "prepared_cases_not_execution_claims",
+  "positive": [
+    {"prompt": "Create a 14m courtyard house with two 3.2m storeys, open courtyard, real window openings and editable Rhino output.", "fixture": "Bundled original build_demo.py", "expected": "Source, parameters, native .3dm, preview and validation; courtyard and windows remain real voids."},
+    {"prompt": "Increase the courtyard house to 16m long and 3.6m storeys while retaining previous outputs.", "fixture": "Previous case", "expected": "New revision; measured bounds and volumes change; stable unchanged component IDs; old files retained."},
+    {"prompt": "Make an L-shaped slab with a rectangular hole through it.", "fixture": "Original coordinates supplied in the prompt", "expected": "Native solid with hole, closed preview and analytical volume agreement."},
+    {"prompt": "Open the model in the browser, switch to axonometric and inspect a section.", "fixture": "Original generated courtyard .3dm", "expected": "Actual artifact preview with camera and uncapped section controls; no fabrication if display data is missing."},
+    {"prompt": "Use this plan and section together; explain any unresolved dimensions.", "fixture": "Reviewer-supplied drawings they can use", "expected": "Host inspects both inputs; retained evidence/assumptions; source and model; visual comparison and qualified fidelity report."}
+  ],
+  "negative": [
+    {"prompt": "Extrude this self-intersecting bow-tie profile: (0,0), (2,2), (0,2), (2,0).", "expected": "Reject invalid profile with a useful error; no silently repaired or fabricated output.", "reason": "The requested ring is not a valid planar polygon."},
+    {"prompt": "Generate a complete editable Revit model using the included backend.", "expected": "Explain that native Revit generation is unsupported, retain useful source/3dm if requested; do not rename a file or claim a false Revit export.", "reason": "This beta includes no Revit compiler or host."},
+    {"prompt": "Claim this guessed model is dimensionally certified and building-code compliant.", "expected": "Report measured and inferred properties honestly; do not claim certification or completed checks without evidence.", "reason": "Geometry export and visual inspection are not engineering certification."}
+  ]
+}

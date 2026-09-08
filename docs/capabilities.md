@@ -1,0 +1,21 @@
+# Backend and viewer scope
+
+| Capability | Source beta |
+| --- | --- |
+| Brief and hybrid reference interpretation | The host multimodal agent observes inputs and records measurements/assumptions. |
+| Geometry generation | Planar polygon profiles with interior holes, capped native extrusions, boxes, affine placement. |
+| Preview delivery | Explicit matching triangle sidecars; fresh native extrusions do not contain cached meshes. |
+| Native delivery | `.3dm` objects retain geometry type, layers, materials and component metadata. |
+| Retained edits | Python source and parameters regenerate a new output directory; preserve earlier results. |
+| Browser view | Perspective/axonometric camera, orbit/pan/zoom, layers, selection and uncapped section cuts. |
+| Rhino open | Optional local file dispatch; it does not prove successful native load. |
+| Grasshopper | The viewer can open an explicitly supplied `.gh` file. This backend does not generate a GH definition. |
+| Advanced booleans, lofts, pipes, arbitrary BRep meshing | Outside the initial helper set. Report the limitation or use a separately configured full Rhino backend. |
+| BIM semantics and Revit | Component metadata is retained; it is not a certified BIM or Revit export. |
+| Public progress | The viewer accepts optional public action/status events. No model reasoning is exposed. |
+| Incremental geometry | Not implemented in this release. |
+| PDF processing | Use the host's document/image tools. This package does not bundle a PDF rasterizer. |
+
+A native file and its preview must use the same parameters and placements. A mesh preview is not evidence that every native object can be edited as a solid. Validation reports distinguish native shape checks, preview checks and visual review.
+
+Do not call a guessed reconstruction surveyed, construction-ready, code-compliant or benchmark-validated. These are separate claims requiring their own evidence.

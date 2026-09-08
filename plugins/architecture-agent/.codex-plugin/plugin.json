@@ -1,0 +1,29 @@
+{
+  "name": "architecture-agent",
+  "version": "0.3.0-beta.1",
+  "description": "Generate and revise editable architectural Rhino models using retained Python and a local browser preview.",
+  "author": {
+    "name": "Architecture Agent contributors"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Architecture Agent",
+    "shortDescription": "Create editable architectural models.",
+    "longDescription": "A source beta for multimodal architectural modeling with retained Python, native Rhino files and a local browser viewer. Uses rhino3dm and Shapely without a Rhino application or hosted geometry service. Requires a host with Python execution; advanced RhinoCommon and GH generation are outside this initial backend.",
+    "developerName": "Architecture Agent contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Design an editable courtyard house and show its browser preview.",
+      "Build a Rhino model from these plans and sections.",
+      "Revise the floor height while preserving earlier model versions."
+    ],
+    "screenshots": [
+      "./assets/aerial.png",
+      "./assets/roof_off.png"
+    ]
+  },
+  "license": "Apache-2.0"
+}

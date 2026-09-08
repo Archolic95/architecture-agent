@@ -1,0 +1,34 @@
+{
+  "version": "0.1.0",
+  "dependencies": {
+    "three": "0.128.0",
+    "rhino3dm": "8.32.2"
+  },
+  "files": [
+    {
+      "path": "dist/vendor/three.module.js",
+      "bytes": 1140878,
+      "sha256": "af527c374b56b8688737a42d7fcea7cb8aaeb57a4e3c6da98b4dffd55bcc3514"
+    },
+    {
+      "path": "dist/vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "7dddf7c5b8fd10ee654db8857d75d104b5557889aa5a91fc4ca545ea7c07062f"
+    },
+    {
+      "path": "dist/vendor/rhino3dm.js",
+      "bytes": 126991,
+      "sha256": "7f3b804afda0cafbf456d5729f2980a6011cf90e882b8156c674e78696e2005a"
+    },
+    {
+      "path": "dist/vendor/rhino3dm.wasm",
+      "bytes": 2658201,
+      "sha256": "f386900d2aa32c094323130d59ceac66e16a8ca4321b62b5c4d67680044aabe4"
+    },
+    {
+      "path": "dist/vendor/RHINO3DM-LICENSE.txt",
+      "bytes": 1083,
+      "sha256": "f57a154acc534312b7e7b2bff29748bcef5e1202713b891759a027f7c015f0bd"
+    }
+  ]
+}

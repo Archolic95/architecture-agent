@@ -1,0 +1,335 @@
+{
+  "version": "0.3.0-beta.1",
+  "files": [
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "bytes": 410,
+      "sha256": "55295afa12dcbc2cfb25b6fbe14a848af77441a1e301812437c3baf493ec31d2"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 93,
+      "sha256": "4ee4cd7ed3038cb53244a9d2693df73db5db49419628499cef5b383204fc60fe"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1230,
+      "sha256": "abdff60d849ba8cf05b4bd3b0315896b8961eb19828bc0b28d85e068c90b6b05"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "PRIVACY.md",
+      "bytes": 1006,
+      "sha256": "2e212bfb2c27cba6a01d08a4fda089967a150c66d3191a3d64f543652b00602c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4298,
+      "sha256": "3666396445ed5e47df34312b8246bc5a065d7c24623dd89beb2ffec9abbd2be2"
+    },
+    {
+      "path": "TERMS.md",
+      "bytes": 645,
+      "sha256": "a14565a37595f742339902419c5961734ffa12a494af1260c31c3263a0ac30bb"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "bytes": 1694,
+      "sha256": "54d06125141ef62910e8a032f1d5c8048a9688f0ebc8d668ddc54f38bb5db3d9"
+    },
+    {
+      "path": "docs/capabilities.md",
+      "bytes": 1923,
+      "sha256": "3a0b49606fcb2e7469d3e6f9530d21424ea38e8cc1aada17c317413f39b54a76"
+    },
+    {
+      "path": "docs/development.md",
+      "bytes": 2479,
+      "sha256": "c0b66d1aa0298b5f47de6c7ba3339ced1cd25af6cfeed4e5106884bb28a9bab2"
+    },
+    {
+      "path": "docs/distribution.md",
+      "bytes": 1373,
+      "sha256": "16d24271861f0c177ef0b8fbd0d1ada06f98f62749d5c152676b87b3f252b3a1"
+    },
+    {
+      "path": "docs/reviewer-cases.json",
+      "bytes": 2315,
+      "sha256": "9d788406c055ec7d40b231d30c8d840f737a6608f24a6a34729bbb6fc58eae0e"
+    },
+    {
+      "path": "plugins/architecture-agent/.codex-plugin/plugin.json",
+      "bytes": 1231,
+      "sha256": "425b6180c29adcd1d7f658b0f292c6cf0447412d734791aac1c08f4821fc118f"
+    },
+    {
+      "path": "plugins/architecture-agent/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "plugins/architecture-agent/THIRD-PARTY-NOTICES.md",
+      "bytes": 1694,
+      "sha256": "54d06125141ef62910e8a032f1d5c8048a9688f0ebc8d668ddc54f38bb5db3d9"
+    },
+    {
+      "path": "plugins/architecture-agent/assets/aerial.png",
+      "bytes": 37086,
+      "sha256": "3ae1fff314451f78640f7c42b34916b935819139784d33283e0a31df595fd002"
+    },
+    {
+      "path": "plugins/architecture-agent/assets/roof_off.png",
+      "bytes": 45133,
+      "sha256": "baeef27bdf3e895bbece72f2ff2e4066c56b052e57cdb5ae4a88cbdba22de688"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/SKILL.md",
+      "bytes": 4571,
+      "sha256": "1278ac2abda1431381e1e91bd86972f096b6e20bffe8656e1511161580554ebd"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/references/geometry.md",
+      "bytes": 1700,
+      "sha256": "53faeb6159938d67b153eb80a214e39c82aa374d74e3238c5cd814ac644eed48"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/references/standalone-kit.md",
+      "bytes": 3989,
+      "sha256": "4d913eb827ea18615c4b51dd4faa8ddb2e94c2aa5bdf1cf46b4fc8652192884d"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/build_demo.py",
+      "bytes": 6879,
+      "sha256": "c35fdad8428c869b18970ebed50e9ac8866f35671ad23372a7f31dbf0adc6b22"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/cpu_preview.py",
+      "bytes": 7111,
+      "sha256": "0d36c0d94ab76023fac6aa67e6931a4f3d91bf649f9ca7b15138277d615ca1fe"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/geometry_kit.py",
+      "bytes": 13950,
+      "sha256": "3d49e7cc1c93485c8e5a89517fe2183c7ca2bc6d0ba1643e12a8ff7697ec6381"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/requirements.txt",
+      "bytes": 96,
+      "sha256": "e0def326ab7ce2eeffde08cdcc1eba78f9941c4274ecfb901247d7ecee302e0a"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/setup.py",
+      "bytes": 1288,
+      "sha256": "51d93d8db6a5643c0ddfa58c9ce51801ff5e3e94b996f73de15a46499f18dbcb"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/test_kit.py",
+      "bytes": 3244,
+      "sha256": "5886abb538ada76b817ab40d081a635aff788e201e7958420bfac6d0c43b0020"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/RHINO3DM-LICENSE.txt",
+      "bytes": 1083,
+      "sha256": "f57a154acc534312b7e7b2bff29748bcef5e1202713b891759a027f7c015f0bd"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/THIRD-PARTY-NOTICES.md",
+      "bytes": 671,
+      "sha256": "d4f14efae435891208353722b4bd302978776ab3f10d905092ffe97ba22d9680"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/build.mjs",
+      "bytes": 1222,
+      "sha256": "70c8f30b25d5481bbf463d08ffdcf4e07590676760d7aa5aaca8ee324029f3a1"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/activity.mjs",
+      "bytes": 4771,
+      "sha256": "5498cf8eba4a5659e7233f70c1cd3848e284d3759c5d779daea19171c48fa173"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/app.mjs",
+      "bytes": 17807,
+      "sha256": "14aa3293639566ee84a9f5155ecbb4d9cce139f645277b36ce407f33de60d424"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/build-manifest.json",
+      "bytes": 934,
+      "sha256": "349b19f1267223e066f0cfc0ad8aec87142150105a126e69b92a5af41d726b18"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/camera-math.mjs",
+      "bytes": 895,
+      "sha256": "9dbdacd35625f6242abe036fece81542e6adfb8b9d96ad780ee9561afc187814"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/decode-worker.js",
+      "bytes": 383,
+      "sha256": "77e6ba591f6b1869d7266530c89d5e82cb481efa33b6537a1f55db03c46d784a"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/decode.mjs",
+      "bytes": 3984,
+      "sha256": "25e9a961374f3ff90d6ba37206ca4c10343a79bf956f1db27f32efd78743c2ed"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/index.html",
+      "bytes": 4770,
+      "sha256": "ec2dc69eba026019864552295bc15bdea8c31eca7fe5d70ab78d653c76196133"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/model-state.mjs",
+      "bytes": 4472,
+      "sha256": "add35d7c7e15320afa3cf941dedb3a0d419d0c29cb657a09e2fcfb4bd2314d56"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/preview.mjs",
+      "bytes": 2668,
+      "sha256": "6240a5ee57ceb5fc92ff30b02ec71c90f822432c9e1faf4cd0309630722bb04f"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/style.css",
+      "bytes": 9800,
+      "sha256": "62130d10a7dacbdab14e7fcb901429700d9b5c8554eeeb7c717dd227d71120b2"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/vendor/README.txt",
+      "bytes": 187,
+      "sha256": "55f953e88a26533d1e81709551619a01a830d671feb1fcc51146c4c6e679727e"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/vendor/RHINO3DM-LICENSE.txt",
+      "bytes": 1083,
+      "sha256": "f57a154acc534312b7e7b2bff29748bcef5e1202713b891759a027f7c015f0bd"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "7dddf7c5b8fd10ee654db8857d75d104b5557889aa5a91fc4ca545ea7c07062f"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/vendor/rhino3dm.js",
+      "bytes": 126991,
+      "sha256": "7f3b804afda0cafbf456d5729f2980a6011cf90e882b8156c674e78696e2005a"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/vendor/rhino3dm.wasm",
+      "bytes": 2658201,
+      "sha256": "f386900d2aa32c094323130d59ceac66e16a8ca4321b62b5c4d67680044aabe4"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/dist/vendor/three.module.js",
+      "bytes": 1140878,
+      "sha256": "af527c374b56b8688737a42d7fcea7cb8aaeb57a4e3c6da98b4dffd55bcc3514"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/fixtures/README.md",
+      "bytes": 321,
+      "sha256": "e8e7591dc5a6b55bed463a8c5b4615d9e3f3513731400a645f3009550cb9ac8f"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/fixtures/courtyard-study.3dm",
+      "bytes": 250984,
+      "sha256": "1a7eeb5718941b8b6f51d658fe7f5a7b46e15d870ec095d5d0daa93e1af15b8d"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/package-lock.json",
+      "bytes": 1382,
+      "sha256": "d218a799a1cd1cd697507aa97ef197d1967c7e5d75bd79e0f4e16754b21135ae"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/package.json",
+      "bytes": 320,
+      "sha256": "817815ca197d459568a281d672181d60c849f2a889d51dd9b743f9a061fa528f"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/src/activity.mjs",
+      "bytes": 4771,
+      "sha256": "5498cf8eba4a5659e7233f70c1cd3848e284d3759c5d779daea19171c48fa173"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/src/app.mjs",
+      "bytes": 17807,
+      "sha256": "14aa3293639566ee84a9f5155ecbb4d9cce139f645277b36ce407f33de60d424"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/src/camera-math.mjs",
+      "bytes": 895,
+      "sha256": "9dbdacd35625f6242abe036fece81542e6adfb8b9d96ad780ee9561afc187814"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/src/decode-worker.js",
+      "bytes": 383,
+      "sha256": "77e6ba591f6b1869d7266530c89d5e82cb481efa33b6537a1f55db03c46d784a"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/src/decode.mjs",
+      "bytes": 3984,
+      "sha256": "25e9a961374f3ff90d6ba37206ca4c10343a79bf956f1db27f32efd78743c2ed"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/src/index.html",
+      "bytes": 4770,
+      "sha256": "ec2dc69eba026019864552295bc15bdea8c31eca7fe5d70ab78d653c76196133"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/src/model-state.mjs",
+      "bytes": 4472,
+      "sha256": "add35d7c7e15320afa3cf941dedb3a0d419d0c29cb657a09e2fcfb4bd2314d56"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/src/preview.mjs",
+      "bytes": 2668,
+      "sha256": "6240a5ee57ceb5fc92ff30b02ec71c90f822432c9e1faf4cd0309630722bb04f"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/src/style.css",
+      "bytes": 9800,
+      "sha256": "62130d10a7dacbdab14e7fcb901429700d9b5c8554eeeb7c717dd227d71120b2"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/tests/activity.test.mjs",
+      "bytes": 5967,
+      "sha256": "5ded0d4468546294f7ba4aeee33cad0cc9509b110bc864f551dc1ef68da4ec9f"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/tests/make_fixture.mjs",
+      "bytes": 3890,
+      "sha256": "dd697c30ad51821ac0d507164a55116c71ce3f35f5c79d69b5f00f3e2fd91032"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/tests/preview.test.mjs",
+      "bytes": 2732,
+      "sha256": "33905fa2e5044410e1960860ee705edcc1cbc38adf0558aa4b66ffb5494c684c"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/tests/test_preview.py",
+      "bytes": 4502,
+      "sha256": "1bd680315447b103f14d13867e2d1e13f863004a208641efe5b9b981feca13ff"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/tests/test_viewer_service.py",
+      "bytes": 8212,
+      "sha256": "ffded0b0a2e9e79f87966186882053f354d0e1f7291035c0c06ec5c0b2ddb22a"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/tests/viewer.test.mjs",
+      "bytes": 7667,
+      "sha256": "e9e5a80b29a610c38281890c2e0cec891a3e3cd208c6ae10802977a5fdd58480"
+    },
+    {
+      "path": "plugins/architecture-agent/skills/architecture-modeling/scripts/viewer/viewer_service.py",
+      "bytes": 17867,
+      "sha256": "9c18ceba501b06c9e7ffc42e60493e2ec02dc7ce3ec44171b27158d9ff91c853"
+    },
+    {
+      "path": "tools/build_release.py",
+      "bytes": 5278,
+      "sha256": "cda45494bb99388debc3b6bedf657b262fb8fb1b65c0cf11f49897362d2b6510"
+    }
+  ]
+}
