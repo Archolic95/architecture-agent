@@ -1,0 +1,49 @@
+{
+  "recorded_at": "2026-09-09T02:24:51.453153+00:00",
+  "host_model_observed": "Sonnet 4.6 Medium",
+  "host_execution_completed": true,
+  "host_reported": {
+    "native_valid_solids": 182,
+    "triangles": 3308,
+    "analytic_volume_m3": 158.1,
+    "preview_views_inspected": 4,
+    "repairs": 0,
+    "missing_capabilities": []
+  },
+  "attachments_observed": [
+    "model.3dm",
+    "build_demo.py",
+    "geometry_kit.py",
+    "parameters.json",
+    "validation.json",
+    "model-portable.html",
+    "aerial.png",
+    "roof-off.png",
+    "section.png",
+    "plan.png",
+    "preview-views.json",
+    "packaging receipt",
+    "scene.json"
+  ],
+  "limitations": [
+    "Native binary validity is host-reported; no independent returned 3dm binary check.",
+    "No OS-level saved-file hash read; download and execution verified through Chrome UI.",
+    "Bundled demo execution only, not a new architecture or hybrid-input fidelity benchmark.",
+    "Portable snapshot has no native Rhino dispatch or live updates.",
+    "Actual Claude Desktop Chat execution not checked."
+  ],
+  "browser_checks": {
+    "download_completed": true,
+    "opened_in_user_chrome": true,
+    "native_objects": 182,
+    "layers": 10,
+    "triangles": 3308,
+    "offline_files_verified_ui": true,
+    "perspective_render": true,
+    "axonometric_render": true,
+    "roof_hidden": true,
+    "section_cut_z_m": 3.05,
+    "screenshots_inspected": 2
+  },
+  "scope": "Bundled-demo Claude web execution and downloaded Chrome viewer; not a fidelity benchmark."
+}

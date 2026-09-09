@@ -1,0 +1,154 @@
+{
+  "release": "v0.3.0-beta.5",
+  "product": "Architecture Agent",
+  "delivery": "Claude personal skill",
+  "archive": {
+    "filename": "architecture-agent-0.3.0-beta.5-claude-skill.zip",
+    "bytes": 299369,
+    "sha256": "92a44da0ca56f843e1fda3cf76fdcf19b86738b82982dc0b254e59281c4f68db"
+  },
+  "source_root": "claude-skill",
+  "archive_prefix": "architecture-modeling/",
+  "members": [
+    {
+      "path": "architecture-modeling/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "architecture-modeling/SKILL.md",
+      "bytes": 6494,
+      "sha256": "ca97e39b4fdcc07ba8fe57a4c33959a9204141fa9d50d9aaaabee8f0652ec909"
+    },
+    {
+      "path": "architecture-modeling/THIRD-PARTY-NOTICES.md",
+      "bytes": 1007,
+      "sha256": "da9659c40252cbbb5bd8c7ee39a6a664ee58e886b72468e88c17f45a8c3567f9"
+    },
+    {
+      "path": "architecture-modeling/references/geometry.md",
+      "bytes": 1700,
+      "sha256": "53faeb6159938d67b153eb80a214e39c82aa374d74e3238c5cd814ac644eed48"
+    },
+    {
+      "path": "architecture-modeling/references/native-sections.md",
+      "bytes": 3787,
+      "sha256": "30ff1e2b14e82f9dd481191b6c04e14d8c781d8dc210b38996adc4c2ee9e29d1"
+    },
+    {
+      "path": "architecture-modeling/references/portable-viewer.md",
+      "bytes": 2885,
+      "sha256": "419131374c6fc97fd5e1828a764e5b935b42d62020323f20d9f022ecd441987a"
+    },
+    {
+      "path": "architecture-modeling/references/standalone-kit.md",
+      "bytes": 4449,
+      "sha256": "d7155f032b164282ed234b024bc946f74ac477e44c33c5bf472c204a6dc78fda"
+    },
+    {
+      "path": "architecture-modeling/scripts/build_demo.py",
+      "bytes": 6879,
+      "sha256": "c35fdad8428c869b18970ebed50e9ac8866f35671ad23372a7f31dbf0adc6b22"
+    },
+    {
+      "path": "architecture-modeling/scripts/cpu_preview.py",
+      "bytes": 7111,
+      "sha256": "0d36c0d94ab76023fac6aa67e6931a4f3d91bf649f9ca7b15138277d615ca1fe"
+    },
+    {
+      "path": "architecture-modeling/scripts/geometry_kit.py",
+      "bytes": 13950,
+      "sha256": "3d49e7cc1c93485c8e5a89517fe2183c7ca2bc6d0ba1643e12a8ff7697ec6381"
+    },
+    {
+      "path": "architecture-modeling/scripts/native_sections.py",
+      "bytes": 22907,
+      "sha256": "b825dc944b2ba6a3ea0d0a691ff67f97c73250c21444c8a0a2a5e639f9c4c5f7"
+    },
+    {
+      "path": "architecture-modeling/scripts/portable/bootstrap.mjs",
+      "bytes": 2101,
+      "sha256": "9032b5ea6f1dd337bcc13b894c00dfff68af7ac5c8117bfff535fc0bf40b8130"
+    },
+    {
+      "path": "architecture-modeling/scripts/portable/build_portable.py",
+      "bytes": 12156,
+      "sha256": "32fe5409e49325608a5bd5c3bec46c00cad40b8c6c67f84ff222d4c3ab9d1e7c"
+    },
+    {
+      "path": "architecture-modeling/scripts/portable/module-loader.mjs",
+      "bytes": 1274,
+      "sha256": "c370402e65f1bb6aa52bdd9b4e145fe0ae6197697b47b8dc0769075bea1c84ab"
+    },
+    {
+      "path": "architecture-modeling/scripts/portable/portable-api.mjs",
+      "bytes": 4785,
+      "sha256": "42947b3c4041b0d372809e544602f8c8bdba3cde69676247dae1d43171ef8c69"
+    },
+    {
+      "path": "architecture-modeling/scripts/requirements.txt",
+      "bytes": 96,
+      "sha256": "e0def326ab7ce2eeffde08cdcc1eba78f9941c4274ecfb901247d7ecee302e0a"
+    },
+    {
+      "path": "architecture-modeling/scripts/setup.py",
+      "bytes": 1288,
+      "sha256": "51d93d8db6a5643c0ddfa58c9ce51801ff5e3e94b996f73de15a46499f18dbcb"
+    },
+    {
+      "path": "architecture-modeling/scripts/viewer/THIRD-PARTY-NOTICES.md",
+      "bytes": 445,
+      "sha256": "2b9ce8b9e3dda4af3df2472bfc796d97846e5c3b325383949a07ae9bdb23a75d"
+    },
+    {
+      "path": "architecture-modeling/scripts/viewer/dist/activity.mjs",
+      "bytes": 4771,
+      "sha256": "5498cf8eba4a5659e7233f70c1cd3848e284d3759c5d779daea19171c48fa173"
+    },
+    {
+      "path": "architecture-modeling/scripts/viewer/dist/app.mjs",
+      "bytes": 22908,
+      "sha256": "326b126cc5eb46034d95d2b0ef2cf4472689a018015bd097803ac33ac7938c29"
+    },
+    {
+      "path": "architecture-modeling/scripts/viewer/dist/camera-math.mjs",
+      "bytes": 895,
+      "sha256": "9dbdacd35625f6242abe036fece81542e6adfb8b9d96ad780ee9561afc187814"
+    },
+    {
+      "path": "architecture-modeling/scripts/viewer/dist/index.html",
+      "bytes": 4861,
+      "sha256": "6c64628f889dd02f99e192b026a90a41d35d3222cb7712e91007efc6ed3c0892"
+    },
+    {
+      "path": "architecture-modeling/scripts/viewer/dist/model-state.mjs",
+      "bytes": 5640,
+      "sha256": "c283d74929ed6964aeb1ab0e1c2f56766cacd183f746a449c789a889d5e93e5f"
+    },
+    {
+      "path": "architecture-modeling/scripts/viewer/dist/preview.mjs",
+      "bytes": 2792,
+      "sha256": "b38fd1219d82207edf01139c329c6c33c791bee1b706f724c7276783239f25e4"
+    },
+    {
+      "path": "architecture-modeling/scripts/viewer/dist/style.css",
+      "bytes": 9953,
+      "sha256": "2415f75a50568be3f2f0a70b3c3e6293f2b2c5920acfd1508667d5ed27e9a8cf"
+    },
+    {
+      "path": "architecture-modeling/scripts/viewer/dist/vendor/THREE-LICENSE.txt",
+      "bytes": 1081,
+      "sha256": "7dddf7c5b8fd10ee654db8857d75d104b5557889aa5a91fc4ca545ea7c07062f"
+    },
+    {
+      "path": "architecture-modeling/scripts/viewer/dist/vendor/three.module.js",
+      "bytes": 1140878,
+      "sha256": "af527c374b56b8688737a42d7fcea7cb8aaeb57a4e3c6da98b4dffd55bcc3514"
+    },
+    {
+      "path": "architecture-modeling/scripts/viewer/viewer_service.py",
+      "bytes": 20551,
+      "sha256": "5c49f149025ad5b2a9467e95bf74ee087422e82d7a6a1263bee91588bc9f9573"
+    }
+  ]
+}

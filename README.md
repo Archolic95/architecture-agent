@@ -37,6 +37,12 @@ Download the [ChatGPT skill ZIP](https://github.com/Archolic95/architecture-agen
 
 The web skill uses compatible Python execution supplied by ChatGPT and returns downloadable model files, retained source, validation records, static previews, and a self-contained HTML viewer. Download the HTML and open it in a desktop browser. The web skill does not activate MCP, native Rhino or Grasshopper, a loopback server, native-app dispatch, or live preview updates. Installing it is not a universal Plugins Directory publication. See [distribution details](docs/distribution.md) and [the bounded cloud smoke record](docs/chatgpt-cloud-smoke.json).
 
+## Install the optional Claude web skill
+
+Download the [Claude skill ZIP](https://github.com/Archolic95/architecture-agent/releases/download/v0.3.0-beta.5/architecture-agent-0.3.0-beta.5-claude-skill.zip). In Claude, open **Customize → Skills → Yours**, choose **Add skill → Upload skill**, select the ZIP, and save. Enable **architecture-modeling**, then start a new chat. Compatible Python execution and file creation must be available on your account.
+
+This is the same Architecture Agent workflow packaged for Claude. Its bundled demo ran successfully on Claude web and returned model files, source, validation, four previews and an offline HTML viewer. We separately opened the downloaded viewer in Chrome and checked its cameras, roof visibility and section cut. See the [bounded smoke record](docs/claude-cloud-smoke.json). Actual Claude Desktop execution has not been verified. The portable HTML is a downloadable snapshot; it has no native-app dispatch or live updates.
+
 ## Try the original demo
 
 The demo and geometry helpers are inside the skill so they travel with a skill-only upload. Run these from the checkout root:
