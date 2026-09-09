@@ -1,0 +1,47 @@
+{
+  "schema": "architecture-agent.chatgpt-cloud-smoke.v1",
+  "release": "v0.3.0-beta.4",
+  "status": "accepted_bounded_smoke",
+  "tested_asset": {
+    "filename": "architecture-agent-0.3.0-beta.4-chatgpt-skill.zip",
+    "bytes": 299486,
+    "sha256": "401467a03ca30d7ac15e2ae5401ff7bb36b224e8ee8e285b142782886e87d0ee",
+    "files": 28
+  },
+  "installation": {
+    "surface": "ChatGPT Work",
+    "path": ["Skills", "Create", "Upload from your computer"],
+    "skill_and_scripts_loaded": true
+  },
+  "host_reported": {
+    "pinned_dependencies_imported": 6,
+    "fixture": "unchanged bundled demo",
+    "valid_solids": 182,
+    "preview_triangles": 3308,
+    "cpu_views_inspected": 4,
+    "repairs": 0,
+    "portable_html_returned": true,
+    "native_validation_independently_rechecked_by_reviewer": false
+  },
+  "reviewer_observed": {
+    "downloaded_portable_html": true,
+    "opened_from_local_file": true,
+    "webgl_rendered": true,
+    "objects": 182,
+    "triangles": 3308,
+    "embedded_files_verified": true,
+    "controls_visually_passed": [
+      "axonometric projection",
+      "roof visibility",
+      "section Z=3.05"
+    ]
+  },
+  "not_established": [
+    "Independent reviewer reopen and hash verification of the returned native .3dm",
+    "New-building or hybrid-input fidelity",
+    "Engineering certification or code compliance",
+    "Availability on other accounts or workspace roles",
+    "MCP, native Rhino/Grasshopper, native-app dispatch or live preview on ChatGPT web",
+    "Universal Plugins Directory publication"
+  ]
+}

@@ -18,9 +18,20 @@
 | Incremental geometry | Not implemented in this release. |
 | PDF processing | Use the host's document/image tools. This package does not bundle a PDF rasterizer. |
 
+## ChatGPT web delivery
+
+| Capability | Optional v0.3.0-beta.4 ChatGPT web skill |
+| --- | --- |
+| Installation | **Skills → Create → Upload from your computer** was accepted on one ChatGPT Work account. Account and workspace availability can vary. |
+| Modeling runtime | Uses the writable Python execution environment supplied by ChatGPT. The accepted smoke imported all six pinned dependencies. |
+| Deliverables | Retained Python source and parameters, `.3dm`, validation records, inspected static previews, and downloadable portable HTML when host attachment delivery is available. |
+| Viewer | The user downloads the self-contained HTML and opens it in a desktop browser. One accepted smoke rendered 182 objects and 3,308 triangles and passed axonometric, roof-visibility, and Z=3.05 section checks in Chrome. |
+| Local/native features | No MCP, loopback server, native Rhino/Grasshopper, native-app dispatch, live preview, arbitrary `.3dm` browser import, or directory publication. |
+| Evidence boundary | The completed smoke used the unchanged bundled demo. Native validation was host-reported, not independently reopened by the reviewer. No new-building fidelity benchmark was performed. |
+
 A native file and its preview must use the same parameters and placements. A mesh preview is not evidence that every native object can be edited as a solid. Validation reports distinguish native shape checks, preview checks and visual review.
 
-The portable packager reuses the generator report and the viewer's artifact checks; it does not independently certify native/mesh equivalence. Core controls passed an actual Chrome check on one fixture. Pan, file-drop refusal, the WebGL-unavailable fallback, saved-download byte identity and chat-host attachment delivery were not part of that completed browser check.
+The portable packager reuses the generator report and the viewer's artifact checks; it does not independently certify native/mesh equivalence. Core controls passed actual Chrome checks on bounded fixtures. ChatGPT attachment delivery and downloaded file-origin rendering passed once on the recorded Work account. Pan, file-drop refusal, the WebGL-unavailable fallback, saved native-download byte identity and other chat hosts remain outside completed acceptance.
 
 Filled sections do not change the CPU or browser's uncapped cuts. The native reader checks all objects regardless of visibility and rejects the entire file when any object is unsupported. See [section scope and error semantics](../plugins/architecture-agent/skills/architecture-modeling/references/native-sections.md).
 

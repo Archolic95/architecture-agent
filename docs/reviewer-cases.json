@@ -1,6 +1,18 @@
 {
   "version": 1,
-  "status": "prepared_cases_not_execution_claims",
+  "status": "prepared_cases_with_bounded_completed_cloud_smoke",
+  "completed_evidence": [
+    {
+      "case": "ChatGPT web skill bundled-demo smoke",
+      "record": "chatgpt-cloud-smoke.json",
+      "scope": "Installed skill and scripts, six dependency imports, unchanged bundled demo, four CPU views, downloadable portable HTML, and downloaded file-origin Chrome controls.",
+      "not_established": [
+        "Independent reviewer reopen/hash verification of native .3dm",
+        "New-building or hybrid-input fidelity",
+        "Availability on other accounts or workspace roles"
+      ]
+    }
+  ],
   "positive": [
     {"prompt": "Create a 14m courtyard house with two 3.2m storeys, open courtyard, real window openings and editable Rhino output.", "fixture": "Bundled original build_demo.py", "expected": "Source, parameters, native .3dm, preview and validation; courtyard and windows remain real voids."},
     {"prompt": "Increase the courtyard house to 16m long and 3.6m storeys while retaining previous outputs.", "fixture": "Previous case", "expected": "New revision; measured bounds and volumes change; stable unchanged component IDs; old files retained."},

@@ -29,6 +29,14 @@ For hybrid input, attach plans, sections, elevations or photographs and say whic
 
 This GitHub beta is a custom marketplace release. It does not imply listing in the universal Plugins Directory. [Distribution and platform scope](docs/distribution.md) explains that separate process.
 
+## Install the optional ChatGPT web skill
+
+The v0.3.0-beta.4 release adds the same Architecture Agent workflow as an optional ChatGPT web skill. It is additive: the desktop/source plugin and its v0.3.0-beta.3 install commands above remain unchanged.
+
+Download the [ChatGPT skill ZIP](https://github.com/Archolic95/architecture-agent/releases/download/v0.3.0-beta.4/architecture-agent-0.3.0-beta.4-chatgpt-skill.zip). In ChatGPT, open **Skills**, select **Create**, choose **Upload from your computer**, and upload that ZIP. Start a new Work conversation, then describe a building or attach plans, sections, elevations, or photographs. This flow was accepted on one ChatGPT Work account; availability and workspace policy can vary by account.
+
+The web skill uses compatible Python execution supplied by ChatGPT and returns downloadable model files, retained source, validation records, static previews, and a self-contained HTML viewer. Download the HTML and open it in a desktop browser. The web skill does not activate MCP, native Rhino or Grasshopper, a loopback server, native-app dispatch, or live preview updates. Installing it is not a universal Plugins Directory publication. See [distribution details](docs/distribution.md) and [the bounded cloud smoke record](docs/chatgpt-cloud-smoke.json).
+
 ## Try the original demo
 
 The demo and geometry helpers are inside the skill so they travel with a skill-only upload. Run these from the checkout root:

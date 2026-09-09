@@ -7,3 +7,5 @@ The package does not contain telemetry, analytics, a hosted model service or cre
 The optional local viewer binds to `127.0.0.1` and serves registered artifacts using a per-session token. No model upload is performed by the viewer. Browser-local file imports remain local to the browser. Native Open dispatches only a registered file when enabled and clicked.
 
 The agent host may send prompts, images and outputs to its model provider under that provider's own terms and controls. This package does not replace those policies. Users control the files retained in their workspace and can delete them there.
+
+The optional ChatGPT web skill runs only in the execution workspace ChatGPT provides. It can install the pinned Python packages into a project-local environment and return generated artifacts as downloads. It does not connect to Architecture Agent telemetry or a hosted Architecture Agent service, and it does not expose the cloud workspace's loopback address to the user's computer. ChatGPT's handling of prompts, attachments, generated files, retention and account limits remains governed by ChatGPT's own controls and terms.
